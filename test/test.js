@@ -1,6 +1,5 @@
 const chai = require('chai');
 const should = chai.should()
-const expect = chai.expect
 const chaiArrays = require('chai-arrays');
 chai.use(chaiArrays)
 const fizzbuzz = require('../fizzbuzz');
