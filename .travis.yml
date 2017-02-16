@@ -1,8 +1,9 @@
 language: node_js
 node_js:
-  "7"
+  - "7"
 before_script:
-  npm i
+  - npm i
+  - npm i -g mocha
 script:
-  mocha
+  - mocha
 sudo: required
