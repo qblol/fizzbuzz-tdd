@@ -5,3 +5,5 @@ before_script:
   npm i
 script:
   mocha
+sudo:
+  required
